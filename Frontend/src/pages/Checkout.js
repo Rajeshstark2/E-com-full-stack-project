@@ -130,7 +130,7 @@ const Checkout = () => {
       return;
     }
     const result = await axios.post(
-      "https://prabanjam.onrender.com/api/user/order/checkout",
+      "https://test2-60yt.onrender.com/api/user/order/checkout",
       { amount: totalAmount + 100 },
       config
     );
@@ -158,7 +158,7 @@ const Checkout = () => {
         };
 
         const result = await axios.post(
-          "https://prabanjam.onrender.com/api/user/order/paymentVerification",
+          "https://test2-60yt.onrender.com/api/user/order/paymentVerification",
           data,
           config
         );
